@@ -1,4 +1,4 @@
-<!-- Lista Faq Google -->
+<!-- Lista Faq Google da richiamare su index con include -->
 
 <?php
     $faq = [

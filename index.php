@@ -13,6 +13,18 @@
     Come discusso a lezione, per parti ancora più composte e/o stilizzazioni particolari, sentitevi libere e liberi di utilizzare il markup all'interno delle stringhe nella struttura dati. -->
 
     <body>
+        <?php
+            include 'data.php';
+        ?>
+
+        <?php
+
+        foreach ($faq as $value) {
+            echo '<h1>'. $value ['question'] . '</h1>';
+            echo '<p>'. $value ['answer'] . '</p>';
+        }
+
+        ?>
         
     </body>
 </html>
